@@ -1,3 +1,84 @@
-*{
-    background-color: azure;
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0%;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+.orange {
+    color: orange;
+}
+
+.half {
+    display: flex;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    padding: 40px;
+}
+
+.with {
+    width: 50%;
+    padding-left: 2%;
+
+}
+
+.with img {
+    width: 80%;
+}
+
+.Hire_me {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-image: linear-gradient(orange, tomato);
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+
+.half-second {
+    display: flex;
+    margin-top: 50px;
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+
+.exprince-area {
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+
+.flexible {
+    display: flex;
+}
+
+.box-shadow {
+    margin-bottom: 50px;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    box-shadow: 10px 10px 40px gray;
+    border-radius: 10px;
+}
+
+#box1 {
+    padding: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+
+#box2 {
+    padding: 10px;
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(16, 122, 82), rgb(255, 4, 121));
+    border-image-slice: 1;
+}
+
+footer p {
+    text-align: center;
 }
